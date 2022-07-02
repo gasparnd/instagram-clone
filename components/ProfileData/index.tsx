@@ -28,7 +28,7 @@ const ProfileData = (props: IProps) => {
 
       <View style={ProfileDataStyles.userStatContainer}>
         <Text style={{ fontWeight: "900", textAlign: "center" }}>
-          {followersNumber}
+          {followingNumber}
         </Text>
         <Text>Following</Text>
       </View>

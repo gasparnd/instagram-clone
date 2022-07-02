@@ -44,7 +44,7 @@ export const Profile = () => {
         </View>
 
         <View>
-          <StoriesCarrusel />
+          <StoriesCarrusel type="ownStories" />
         </View>
       </View>
       <View style={ProfileStyles.postOptions}>
